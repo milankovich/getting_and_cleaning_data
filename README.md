@@ -9,7 +9,7 @@ The raw data should be downloaded and unzipped without changing names, from URL 
 
 ## Files
 
-`CodeBook.md` describes the general flow of the R analysis code, on how to transform the raw data to generate a tidy dataset that can be used for future processing.
+`CodeBook.md` describes the general flow of the R analysis code, on how to transform the raw data to generate a tidy dataset that can be used for future processing. The variables are also described.
 
 `run_analysis.R` contains all the code to perform the analyses described in the 5 steps. They can be launched in RStudio by just importing the file.
 

@@ -17,3 +17,13 @@ Following I will walk through the flow of the code.
 
 The output file is called `averages_data.txt`, and uploaded to this repository.
 
+##Variables
+Some of the important variables are described as follows.
+
+* `trainx`, `trainy`, `testx`, `testy`, `train_subject` and `test_subject` contain the data from the downloaded files.
+* `allx`, `ally` and `alls` are the merged datasets (from training and testing sets) for further analysis.
+* `featureNames` contains the correct names for the `all` dataset, which are used to name the features in the X data.
+* A similar approach is taken with activity names through the `activities` variable.
+* `mean_std_df` is a data frame containing the data related to mean and std.
+* `all_data_sorted` is a data frame with correct measurements of interest.
+* Finally, `tidymean` contains the relevant averages which will be later stored in the `data.txt` file.
