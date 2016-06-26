@@ -1,7 +1,7 @@
 #Getting and Cleaning Data Project
 Shipeng
 
-##Overview
+##Code description
 
 The script `run_analysis.R` performs 5 steps in order to process the raw data and generate new tidy dataset for future processing, as described in the course project outline.
 
