@@ -18,8 +18,6 @@ test_subject <- fread("./test/subject_test.txt", sep = " ", col.names = c("Subje
 allx <- rbind(trainx,testx)
 ally <- rbind(trainy,testy)
 alls <- rbind(train_subject,test_subject)
-#all_data <- cbind(allx,ally,alls)
-#all_data_sorted <- arrange(all_data,Subject)
 
 #Extracts only the measurements on the mean and standard deviation for each 
 name_new <- c(featureNames,"Label","Subject")
